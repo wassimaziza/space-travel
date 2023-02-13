@@ -1,0 +1,267 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://cdn.mwallpapers.com/photos/celebrities/space/earth-from-space-android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4khd-wallpapers-desktop-background-android-iphone-1080p-4k-9onfj.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: lightblue;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color:lightblue
+}
+h3{
+  color: #a834e7;
+}
+h2 {
+  color: #a834e7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(243, 4, 4, 0);
+}
+
+nav div {
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav div:hover {
+    background-color: #9f95daa9;
+}
+
+
+.home-container {
+  text-align: center;
+}
+
+.home-title {
+  font-size: 3em;
+  color:rgb(20, 3, 170)
+}
+
+.home-quote {
+  color: rgb(121, 149, 243);
+  font-size: 1.5em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.about-container {
+    padding: flex;
+    text-align: center;
+    background-color: #f2f2f2;
+    font-family: "AudioWide",sans-serif;
+    height: flex;
+  }
+  
+  .ab {
+    font-size: 36px;
+    font-weight: bold;
+    color: #7003aa;
+    margin-bottom: 20px;
+    
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    font-size: 18px;
+    list-style: none;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .return-home {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .admin-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="password"] {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    margin-left: 148px;
+  }
+  
+  button[type="submit"] {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(212, 0, 255);
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 253px;
+    
+  }
+  
+  .error {
+    color: red;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left: 319px;
+    margin-top: 126px;
+  }
+  
+  label {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    margin-top: 10px;
+    padding: 4px;
+    width: 100%;
+  }
+  
+  .btn7 {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .form-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .big-green-button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 20px 2px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  }
+  
+  .big-red-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 20px 2px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  }
+ .formSubmit{
+  font-family: "AudioWide",sans-serif;
+  box-shadow: #262424;
+  background-image: url('https://png.pngtree.com/background/20210710/original/pngtree-blue-cool-chase-dream-youth-inspirational-background-picture-image_1011440.jpg');
+ color: #ccc;
+}
+ .explore{
+  font-family: "AudioWide",sans-serif;
+  margin-left: 50px;
+  text-align: center;
+ }
+ .btn2 {
+  width: 70px;
+  height: 40px;
+  background-color: rgb(212, 0, 255);
+  color: white;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+ }
+ .input{
+  opacity: 50%;
+ }
+ .input:hover{
+  opacity: 100%;
+ }
+ .detailss{
+  font-family: "AudioWide",sans-serif;
+  margin-left: 50px;
+  text-align: center;
+ }
+ .a{
+   color :#333;
+   text-align: center;
+ }
